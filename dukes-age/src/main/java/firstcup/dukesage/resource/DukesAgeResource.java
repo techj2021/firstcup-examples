@@ -35,6 +35,8 @@ public class DukesAgeResource {
         Calendar dukesBirthday = new GregorianCalendar(1995, Calendar.MAY, 23);
         // Create a new Calendar for today
         Calendar now = GregorianCalendar.getInstance();
+        
+        String s = new String();
 
         // Subtract today's year from Duke's birth year, 1995
         int dukesAge = now.get(Calendar.YEAR) - dukesBirthday.get(Calendar.YEAR);
